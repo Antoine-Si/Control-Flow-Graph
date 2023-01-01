@@ -1,0 +1,31 @@
+class testing{
+public static void main(String[] args){
+    int I= 10;
+    int N = 4;
+    int K= 10;
+    if(N>0){
+      int K=100;
+      while (K>0){
+        int S= 0;
+              S= S+ I;
+              if (S< 10){
+              K=K-1;
+                 }
+              else{
+              K= K-2;
+              I =I-2;
+                }
+
+        }
+    }
+    for ( int i=0;  S<20; S=S-i) {
+    int M= S + K +100;
+         do{
+          M= M-10;
+          S= S-1;
+         }while ( M>0 & S<4)
+       }
+
+    S= M+K+N;
+}
+}
